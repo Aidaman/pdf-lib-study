@@ -1,0 +1,56 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+
+    .section{
+        display: flex;
+        flex-direction: column;
+
+        width: 30%;
+        border: 1px solid black;
+
+        padding: 10px;
+
+        hr.solid{
+            width: 85%;
+            border-top: 2px solid #bbb;
+        }
+
+        &__header{
+            font-size: 20px;
+            font-weight: 300;
+            font-style: italic;
+
+            text-align: center;
+        }
+
+        &__button{
+            width: 75%;
+            align-self: center;
+            margin: 5px 0;
+        }
+
+        &__button.create{
+            width: 46.5%;
+            align-self: flex-end;
+        }
+
+        &__label{
+            font-size: 14px;
+            font-weight: 600;
+            font-style: italic;
+            color: #333;
+            
+            align-self: flex-end;
+        }
+
+        &__actions{
+         display: flex;
+         gap: 10px;   
+        }
+    }
+}
